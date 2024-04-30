@@ -15,7 +15,7 @@ var app = express();
 //cors setting
 app.use(cors());
 //db
-mongoose.connect("mongodb+srv://User1:reddy@personalbudget.un7ntvf.mongodb.net/?retryWrites=true&w=majority&appName=PERSONALBUDGET")
+mongoose.connect("mongodb+srv://reddy1234:Reddy1234@personalbudget.un7ntvf.mongodb.net/?retryWrites=true&w=majority&appName=PERSONALBUDGET")
   .then(() => {
     console.log("Connected to the database");
   })
