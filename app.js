@@ -15,7 +15,7 @@ var app = express();
 //cors setting
 app.use(cors());
 //db
-mongoose.connect("mongodb+srv://reddy1234:Reddy1234@personalbudget.un7ntvf.mongodb.net/?retryWrites=true&w=majority&appName=PERSONALBUDGET")
+mongoose.connect(process.env.DatabaseConnectionString)
   .then(() => {
     console.log("Connected to the database");
   })
